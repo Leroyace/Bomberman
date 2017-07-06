@@ -9,10 +9,23 @@
 /* Begin PBXBuildFile section */
 		CB2A98F11BD1C5230056BB28 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB2A98F01BD1C5230056BB28 /* ResourcePath.mm */; };
 		CB2A98F41BD1C5230056BB28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2A98F31BD1C5230056BB28 /* main.cpp */; };
-		CB2A98F71BD1C5230056BB28 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2A98F61BD1C5230056BB28 /* cute_image.jpg */; };
 		CB2A98F91BD1C5230056BB28 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CB2A98F81BD1C5230056BB28 /* nice_music.ogg */; };
 		CB2A98FB1BD1C5230056BB28 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB2A98FA1BD1C5230056BB28 /* sansation.ttf */; };
-		CB2A98FD1BD1C5230056BB28 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2A98FC1BD1C5230056BB28 /* icon.png */; };
+		CB2A99081BD1CDE50056BB28 /* map3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2A99071BD1CDE50056BB28 /* map3.jpg */; };
+		CB2A990D1BD1D43A0056BB28 /* BomberBoy.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2A990B1BD1D43A0056BB28 /* BomberBoy.png */; };
+		CB2A990E1BD1D43A0056BB28 /* BombermanItem.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2A990C1BD1D43A0056BB28 /* BombermanItem.png */; };
+		CB2A99111BD315B60056BB28 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2A990F1BD315B60056BB28 /* Map.cpp */; };
+		CB2A99141BD31B510056BB28 /* GameSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2A99121BD31B510056BB28 /* GameSprite.cpp */; };
+		CB2A99171BD31B700056BB28 /* BomberBoy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2A99151BD31B700056BB28 /* BomberBoy.cpp */; };
+		CB2A99191BD3BC6A0056BB28 /* BomberBoyWhiteSprite.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CB2A99181BD3BC6A0056BB28 /* BomberBoyWhiteSprite.bmp */; };
+		CB68F68B1BE0DFC9006B36B2 /* bomberman_bomb_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = CB68F68A1BE0DFC9006B36B2 /* bomberman_bomb_sheet.png */; };
+		CB68F68E1BE0FBEF006B36B2 /* BomberBomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB68F68C1BE0FBEF006B36B2 /* BomberBomb.cpp */; };
+		CB68F6901BEE3995006B36B2 /* bomb.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB68F68F1BEE3995006B36B2 /* bomb.wav */; };
+		CB68F6921BEE39BD006B36B2 /* bomberman_orchestra.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB68F6911BEE39BD006B36B2 /* bomberman_orchestra.wav */; };
+		CBE6817F1C07F13D00AB8F5E /* bomberman_ia.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE6817D1C07F13D00AB8F5E /* bomberman_ia.png */; };
+		CBE681801C07F13D00AB8F5E /* bombermanp1w.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE6817E1C07F13D00AB8F5E /* bombermanp1w.png */; };
+		CBF4EE0A1BF8A46B00A5CFCC /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF4EE081BF8A46A00A5CFCC /* Monster.cpp */; };
+		CBFEEE7E1BE0B53800871A84 /* BomberItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEEE7C1BE0B53800871A84 /* BomberItem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +34,29 @@
 		CB2A98F01BD1C5230056BB28 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		CB2A98F21BD1C5230056BB28 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		CB2A98F31BD1C5230056BB28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CB2A98F61BD1C5230056BB28 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		CB2A98F81BD1C5230056BB28 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		CB2A98FA1BD1C5230056BB28 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		CB2A98FC1BD1C5230056BB28 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CB2A99071BD1CDE50056BB28 /* map3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map3.jpg; sourceTree = "<group>"; };
+		CB2A990B1BD1D43A0056BB28 /* BomberBoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BomberBoy.png; sourceTree = "<group>"; };
+		CB2A990C1BD1D43A0056BB28 /* BombermanItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BombermanItem.png; sourceTree = "<group>"; };
+		CB2A990F1BD315B60056BB28 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		CB2A99101BD315B60056BB28 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		CB2A99121BD31B510056BB28 /* GameSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameSprite.cpp; sourceTree = "<group>"; };
+		CB2A99131BD31B510056BB28 /* GameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSprite.h; sourceTree = "<group>"; };
+		CB2A99151BD31B700056BB28 /* BomberBoy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BomberBoy.cpp; sourceTree = "<group>"; };
+		CB2A99161BD31B700056BB28 /* BomberBoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BomberBoy.h; sourceTree = "<group>"; };
+		CB2A99181BD3BC6A0056BB28 /* BomberBoyWhiteSprite.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = BomberBoyWhiteSprite.bmp; sourceTree = "<group>"; };
+		CB68F6891BE0C637006B36B2 /* BomberItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BomberItem.h; sourceTree = "<group>"; };
+		CB68F68A1BE0DFC9006B36B2 /* bomberman_bomb_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomberman_bomb_sheet.png; sourceTree = "<group>"; };
+		CB68F68C1BE0FBEF006B36B2 /* BomberBomb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BomberBomb.cpp; sourceTree = "<group>"; };
+		CB68F68D1BE0FBEF006B36B2 /* BomberBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BomberBomb.h; sourceTree = "<group>"; };
+		CB68F68F1BEE3995006B36B2 /* bomb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bomb.wav; sourceTree = "<group>"; };
+		CB68F6911BEE39BD006B36B2 /* bomberman_orchestra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bomberman_orchestra.wav; sourceTree = "<group>"; };
+		CBE6817D1C07F13D00AB8F5E /* bomberman_ia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomberman_ia.png; sourceTree = "<group>"; };
+		CBE6817E1C07F13D00AB8F5E /* bombermanp1w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombermanp1w.png; sourceTree = "<group>"; };
+		CBF4EE081BF8A46A00A5CFCC /* Monster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		CBF4EE091BF8A46B00A5CFCC /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		CBFEEE7C1BE0B53800871A84 /* BomberItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BomberItem.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +91,18 @@
 			children = (
 				CB2A98F01BD1C5230056BB28 /* ResourcePath.mm */,
 				CB2A98F21BD1C5230056BB28 /* ResourcePath.hpp */,
+				CB2A99121BD31B510056BB28 /* GameSprite.cpp */,
+				CB2A99131BD31B510056BB28 /* GameSprite.h */,
+				CB2A990F1BD315B60056BB28 /* Map.cpp */,
+				CB2A99151BD31B700056BB28 /* BomberBoy.cpp */,
+				CB2A99161BD31B700056BB28 /* BomberBoy.h */,
+				CB68F68C1BE0FBEF006B36B2 /* BomberBomb.cpp */,
+				CB68F68D1BE0FBEF006B36B2 /* BomberBomb.h */,
+				CBFEEE7C1BE0B53800871A84 /* BomberItem.cpp */,
+				CB68F6891BE0C637006B36B2 /* BomberItem.h */,
+				CBF4EE081BF8A46A00A5CFCC /* Monster.cpp */,
+				CBF4EE091BF8A46B00A5CFCC /* Monster.h */,
+				CB2A99101BD315B60056BB28 /* Map.h */,
 				CB2A98F31BD1C5230056BB28 /* main.cpp */,
 				CB2A98F51BD1C5230056BB28 /* Resources */,
 				CB2A98EE1BD1C5230056BB28 /* Supporting Files */,
@@ -77,10 +121,17 @@
 		CB2A98F51BD1C5230056BB28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CB2A98F61BD1C5230056BB28 /* cute_image.jpg */,
 				CB2A98F81BD1C5230056BB28 /* nice_music.ogg */,
 				CB2A98FA1BD1C5230056BB28 /* sansation.ttf */,
-				CB2A98FC1BD1C5230056BB28 /* icon.png */,
+				CB68F6911BEE39BD006B36B2 /* bomberman_orchestra.wav */,
+				CB2A99071BD1CDE50056BB28 /* map3.jpg */,
+				CB68F68A1BE0DFC9006B36B2 /* bomberman_bomb_sheet.png */,
+				CBE6817D1C07F13D00AB8F5E /* bomberman_ia.png */,
+				CBE6817E1C07F13D00AB8F5E /* bombermanp1w.png */,
+				CB68F68F1BEE3995006B36B2 /* bomb.wav */,
+				CB2A990B1BD1D43A0056BB28 /* BomberBoy.png */,
+				CB2A99181BD3BC6A0056BB28 /* BomberBoyWhiteSprite.bmp */,
+				CB2A990C1BD1D43A0056BB28 /* BombermanItem.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,10 +193,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2A98FD1BD1C5230056BB28 /* icon.png in Resources */,
 				CB2A98FB1BD1C5230056BB28 /* sansation.ttf in Resources */,
+				CB2A99081BD1CDE50056BB28 /* map3.jpg in Resources */,
+				CB68F68B1BE0DFC9006B36B2 /* bomberman_bomb_sheet.png in Resources */,
+				CB68F6921BEE39BD006B36B2 /* bomberman_orchestra.wav in Resources */,
 				CB2A98F91BD1C5230056BB28 /* nice_music.ogg in Resources */,
-				CB2A98F71BD1C5230056BB28 /* cute_image.jpg in Resources */,
+				CB68F6901BEE3995006B36B2 /* bomb.wav in Resources */,
+				CB2A990D1BD1D43A0056BB28 /* BomberBoy.png in Resources */,
+				CB2A990E1BD1D43A0056BB28 /* BombermanItem.png in Resources */,
+				CB2A99191BD3BC6A0056BB28 /* BomberBoyWhiteSprite.bmp in Resources */,
+				CBE6817F1C07F13D00AB8F5E /* bomberman_ia.png in Resources */,
+				CBE681801C07F13D00AB8F5E /* bombermanp1w.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB68F68E1BE0FBEF006B36B2 /* BomberBomb.cpp in Sources */,
+				CB2A99171BD31B700056BB28 /* BomberBoy.cpp in Sources */,
+				CB2A99141BD31B510056BB28 /* GameSprite.cpp in Sources */,
+				CB2A99111BD315B60056BB28 /* Map.cpp in Sources */,
+				CBF4EE0A1BF8A46B00A5CFCC /* Monster.cpp in Sources */,
+				CBFEEE7E1BE0B53800871A84 /* BomberItem.cpp in Sources */,
 				CB2A98F41BD1C5230056BB28 /* main.cpp in Sources */,
 				CB2A98F11BD1C5230056BB28 /* ResourcePath.mm in Sources */,
 			);
@@ -311,6 +375,7 @@
 				CB2A99021BD1C5230056BB28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
